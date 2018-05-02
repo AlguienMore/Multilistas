@@ -26,10 +26,10 @@ public class Multilistas {
         do {
             System.out.println("Que desea hacer?");
             System.out.println("0..Crear Lista principal");
-            System.out.println("1..Insertar nodo en lista principal");
-            System.out.println("2..Insertar nodo en sublista");
-            System.out.println("3..Buscar un nodo en lista principal");
-            System.out.println("4..Buscar un nodo en sublistas");
+//            System.out.println("1..Insertar nodo en lista principal");
+//            System.out.println("2..Insertar nodo en sublista");
+//            System.out.println("3..Buscar un nodo en lista principal");
+//            System.out.println("4..Buscar un nodo en sublistas");
             System.out.println("5..Mostrar Lista");
             System.out.println("6..Salir");
             opc = sc.nextInt();
@@ -37,7 +37,6 @@ public class Multilistas {
                 case 0:
                     createList();
                     break;
-                case 1:
                 case 5:
                     showList();
                     break;
